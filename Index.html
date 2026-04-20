@@ -1,0 +1,190 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TwistLock | Secure Mobile Gear</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); }
+        .product-gradient { background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                    <svg class="text-white w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                </div>
+                <span class="font-extrabold text-xl tracking-tight">TWISTLOCK</span>
+            </div>
+            <div class="hidden md:flex gap-8 font-semibold text-sm">
+                <a href="#about" class="hover:text-blue-600 transition">About Us</a>
+                <a href="#product" class="hover:text-blue-600 transition">Product</a>
+                <a href="#pricing" class="hover:text-blue-600 transition">Pricing</a>
+            </div>
+            <button class="bg-slate-900 text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-blue-600 transition">
+                Shop Now
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <span class="bg-blue-50 text-blue-600 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest">Available Now</span>
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-[1.1]">Your phone, <span class="text-blue-600 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500">locked in style.</span></h1>
+                <p class="text-lg text-slate-600 leading-relaxed max-w-xl">
+                    Experience the ultimate freedom with our patented twist-to-lock attachment. Secure your phone directly to your clothes, belts, or bags with military-grade precision and effortless ease.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#pricing" class="bg-blue-600 text-white text-center px-8 py-4 rounded-2xl font-bold text-lg hover:shadow-lg hover:shadow-blue-200 transition-all">Get the Starter Kit</a>
+                    <a href="#about" class="bg-slate-100 text-slate-900 text-center px-8 py-4 rounded-2xl font-bold text-lg hover:bg-slate-200 transition">Learn More</a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="aspect-square rounded-[3rem] product-gradient flex items-center justify-center p-8 overflow-hidden border border-slate-100">
+                    <!-- Product Image Placeholder -->
+                    <div class="text-center group cursor-pointer">
+                        <div class="w-24 h-24 bg-white rounded-3xl shadow-sm mx-auto mb-4 flex items-center justify-center group-hover:rotate-90 transition-transform duration-500">
+                            <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+                        </div>
+                        <p class="font-bold text-slate-400 uppercase tracking-widest text-sm">[ Product Image Here ]</p>
+                    </div>
+                </div>
+                <!-- Float Card -->
+                <div class="absolute -bottom-6 -left-6 glass p-6 rounded-2xl shadow-xl border border-white max-w-[240px]">
+                    <p class="text-xs font-bold text-blue-600 mb-1 italic">"The most secure mount I've ever used. Perfect for urban cycling!"</p>
+                    <p class="text-[10px] font-semibold text-slate-400">— Sarah K., Early Adopter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold mb-6">Built for the Motion</h2>
+            <p class="text-xl text-slate-600 leading-relaxed italic">
+                "We started TwistLock because we were tired of bulky pockets and dropped phones. We wanted a solution that felt invisible when you didn't need it, but rock-solid when you did."
+            </p>
+            <div class="mt-12 grid grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="space-y-2">
+                    <div class="text-3xl font-extrabold text-blue-600">5kg+</div>
+                    <div class="text-sm font-bold text-slate-500 uppercase">Holding Force</div>
+                </div>
+                <div class="space-y-2">
+                    <div class="text-3xl font-extrabold text-blue-600">0.2s</div>
+                    <div class="text-sm font-bold text-slate-500 uppercase">Lock Time</div>
+                </div>
+                <div class="space-y-2 col-span-2 md:col-span-1">
+                    <div class="text-3xl font-extrabold text-blue-600">100%</div>
+                    <div class="text-sm font-bold text-slate-500 uppercase">Secure Fit</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details Section -->
+    <section id="product" class="py-24 px-4">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div class="order-2 md:order-1">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="aspect-video bg-slate-100 rounded-2xl flex items-center justify-center font-bold text-slate-300">Front View</div>
+                    <div class="aspect-video bg-slate-100 rounded-2xl flex items-center justify-center font-bold text-slate-300">Side View</div>
+                    <div class="aspect-square col-span-2 bg-slate-100 rounded-2xl flex items-center justify-center font-bold text-slate-300 italic">Lifestyle Shot: Attachment on Denim</div>
+                </div>
+            </div>
+            <div class="order-1 md:order-2 space-y-6">
+                <h3 class="text-3xl font-extrabold">Precision Engineering</h3>
+                <p class="text-slate-600">Our attachment system uses a dual-locking mechanism. It's not just a clip—it's an integrated system that stays flush with your garment.</p>
+                <ul class="space-y-4">
+                    <li class="flex gap-3">
+                        <div class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center">✓</div>
+                        <span class="font-semibold text-slate-700">Non-destructive clothing grip</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <div class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center">✓</div>
+                        <span class="font-semibold text-slate-700">Stainless steel core components</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <div class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center">✓</div>
+                        <span class="font-semibold text-slate-700">Works with all smartphone models</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 px-4 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 space-y-4">
+                <h2 class="text-4xl font-extrabold">Ready to Unlock?</h2>
+                <p class="text-slate-400">Simple pricing for high-end gear.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Basic -->
+                <div class="bg-slate-800 p-8 rounded-[2rem] border border-slate-700 flex flex-col">
+                    <h4 class="text-xl font-bold mb-2">Solo Mount</h4>
+                    <p class="text-slate-400 text-sm mb-6">The essential setup.</p>
+                    <div class="text-5xl font-extrabold mb-8">$35<span class="text-lg text-slate-500 font-normal">/kit</span></div>
+                    <ul class="space-y-4 mb-8 text-slate-300 flex-grow">
+                        <li class="flex gap-2">✓ 1x TwistLock Base</li>
+                        <li class="flex gap-2">✓ 1x Phone Plate</li>
+                        <li class="flex gap-2 text-slate-500">✗ Extra Plates</li>
+                    </ul>
+                    <button class="w-full py-4 rounded-2xl border-2 border-slate-600 font-bold hover:bg-white hover:text-slate-900 transition-all">Buy Now</button>
+                </div>
+
+                <!-- Popular -->
+                <div class="bg-blue-600 p-8 rounded-[2rem] shadow-2xl shadow-blue-500/20 scale-105 flex flex-col relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-white text-blue-600 px-6 py-2 rounded-bl-2xl font-bold text-xs uppercase tracking-widest">Most Popular</div>
+                    <h4 class="text-xl font-bold mb-2">Active Pack</h4>
+                    <p class="text-blue-100 text-sm mb-6">For the daily commuter.</p>
+                    <div class="text-5xl font-extrabold mb-8">$55<span class="text-lg text-blue-200 font-normal">/kit</span></div>
+                    <ul class="space-y-4 mb-8 text-blue-50 flex-grow font-semibold">
+                        <li class="flex gap-2">✓ 2x TwistLock Bases</li>
+                        <li class="flex gap-2">✓ 2x Phone Plates</li>
+                        <li class="flex gap-2">✓ Free Express Shipping</li>
+                    </ul>
+                    <button class="w-full py-4 rounded-2xl bg-white text-blue-600 font-bold hover:bg-slate-100 transition-all">Get Started</button>
+                </div>
+
+                <!-- Professional -->
+                <div class="bg-slate-800 p-8 rounded-[2rem] border border-slate-700 flex flex-col md:col-span-2 lg:col-span-1">
+                    <h4 class="text-xl font-bold mb-2">The Full Set</h4>
+                    <p class="text-slate-400 text-sm mb-6">Equip multiple devices.</p>
+                    <div class="text-5xl font-extrabold mb-8">$99<span class="text-lg text-slate-500 font-normal">/kit</span></div>
+                    <ul class="space-y-4 mb-8 text-slate-300 flex-grow">
+                        <li class="flex gap-2">✓ 4x TwistLock Bases</li>
+                        <li class="flex gap-2">✓ 4x Phone Plates</li>
+                        <li class="flex gap-2">✓ Gift Packaging</li>
+                    </ul>
+                    <button class="w-full py-4 rounded-2xl border-2 border-slate-600 font-bold hover:bg-white hover:text-slate-900 transition-all">Buy Bulk</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-slate-500 text-sm">© 2024 TwistLock Gear. All rights reserved.</p>
+            <div class="flex gap-8 text-sm font-bold text-slate-400">
+                <a href="#" class="hover:text-blue-600 transition">Instagram</a>
+                <a href="#" class="hover:text-blue-600 transition">Contact Support</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
